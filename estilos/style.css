@@ -26,3 +26,28 @@ main{
     width: 312px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+
+}
+#redes{
+    text-align: right;
+
+}
+#redes img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+    box-sizing: border-box;
+}
+#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    transform: translate(-2.5px, 2.5px);
+    box-shadow: 3px 3px 3px black;
+    transition: transform 0.5;
+}
