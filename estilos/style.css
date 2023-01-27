@@ -35,13 +35,14 @@ main{
 
 }
 #redes{
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 #redes img{
     width: 50px;
     border-radius: 50%;
-    margin: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
     box-sizing: border-box;
 }
